@@ -32,79 +32,30 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global Database Management Systems (DBMS) and Cloud Database Platform market is estimated at **$111B to $135B in 2025** and projected to exceed **$160B by 2026** with a compound annual growth rate (CAGR) of 11–13%. The sector is **moderately concentrated among hyperscale cloud providers and legacy enterprise incumbents** (Microsoft, Google, AWS, Oracle, IBM, SAP), while maintaining specialized fragmentation across real-time distributed SQL and analytics database engines.
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Snowflake Stored Procedures](https://www.snowflake.com/)**
-
-  **Server-side procedural logic** in Snowflake, supporting JavaScript, Python, Java, and Scala. **Pricing**: Credit-based consumption; **no perpetual free tier**, only **30-day trial with $400 in credits** . **Free tier**: Trial only. **Best for**: Snowflake customers wanting procedural logic close to data—**trade-off**: language support varies by runtime; compute costs accrue per execution.
-
-
-
-- **[Oracle Cloud Database](https://www.oracle.com/)**
-
-  **PL/SQL stored procedures** with deep enterprise integration. **Pricing**: **Always Free tier** includes **2 Autonomous Databases (ATP/ADW) each with 20 GB storage** . Paid tiers quote-only. **Free tier**: Yes, 2 Autonomous DBs with 20 GB each. **Best for**: enterprises with existing PL/SQL investments wanting cloud migration—**trade-off**: Always Free tier has strict resource limits; idle resources may be reclaimed.
-
-
-
-- **[Microsoft SQL Server](https://www.microsoft.com/sql-server)**
-
-  **T-SQL stored procedures** with tight Azure integration. **Pricing**: **Express Edition is free** (10 GB database, 1 socket/4 cores) ; Standard **$3,945/core** (4-core min); Enterprise **$15,123/core** . **Free tier**: Express free with limits. **Best for**: .NET and Windows-centric teams wanting mature T-SQL—**trade-off**: per-core licensing scales steeply for production.
-
-
-
-- **[PostgreSQL RDS](https://aws.amazon.com/rds/postgresql/)**
-
-  **Managed PostgreSQL** with PL/pgSQL and extension support. **Pricing**: AWS Free Tier includes **750 hours/month of db.t3.micro** for 12 months plus **20 GB storage** . **Free tier**: Yes, 750 hours/month for 12 months. **Best for**: teams wanting managed PostgreSQL without operational overhead—**trade-off**: free tier expires after 12 months.
-
-
-
-- **[MySQL HeatWave](https://www.oracle.com/mysql/)**
-
-  **MySQL with HeatWave acceleration**, supporting SQL/PSM and JavaScript stored programs. **Pricing**: **Always Free tier** includes **MySQL HeatWave with 5,000 hours and 550 GB storage** . **Free tier**: Yes, 5,000 hours/550 GB. **Best for**: teams wanting MySQL with analytics acceleration—**trade-off**: free tier restricts to latest version, single HeatWave node, no HA .
-
-
-
-- **[SAP HANA Cloud](https://www.sap.com/products/hana.html)**
-
-  **In-memory database** with SQLScript stored procedures and multi-model support. **Pricing**: **No free version**; **free trial available**; paid starts at **$9.48/year** per Capterra listings . **Free tier**: Trial only. **Best for**: SAP-centric enterprises needing in-memory procedural logic—**trade-off**: no perpetual free tier; premium pricing.
-
-
-
-- **[IBM Db2 on Cloud](https://www.ibm.com/products/db2)**
-
-  **Db2 with SQL PL stored procedures**. **Pricing**: **Lite plan free** with **200 MB storage and 5 connections** ; paid **$99/month** for full functions plus **$200 credits** . **Free tier**: Yes, 200 MB. **Best for**: IBM-centric teams wanting Db2 procedural logic—**trade-off**: Lite plan is sandbox-only; production requires paid tier.
-
-
-
-- **[SingleStore Helios](https://www.singlestore.com/)**
-
-  **Distributed SQL with stored procedures** and programmability. **Pricing**: **Free Shared Workspace** (evaluation/non-production); paid **Standard from $0.99/hour** . **Free tier**: Yes, free workspace. **Best for**: teams wanting real-time analytics with procedural logic—**trade-off**: free workspace for non-production only.
-
-
-
-- **[CockroachDB](https://www.cockroachlabs.com/)**
-
-  **Distributed SQL with PL/pgSQL stored procedures** (v25+). **Pricing**: **Basic free with 10 GB storage and 50M RU/month** ; **Standard from $0.50/vCPU/hour** . **Free tier**: Yes, 10 GB. **Best for**: teams needing distributed SQL with PostgreSQL-compatible procedures—**trade-off**: PL/pgSQL support is newer (v25); license restrictions for commercial self-hosting .
-
-
-
-- **[Google Cloud Spanner](https://cloud.google.com/spanner)**
-
-  **Globally distributed database** with stored procedures via GoogleSQL and PostgreSQL dialects. **Pricing**: **Free trial instance for 90 days** with Standard and Enterprise features . **Free tier**: Yes, 90-day trial instance. **Best for**: teams needing global consistency with procedural logic—**trade-off**: trial expires after 90 days; paid instances require upgrade.
-
-
+| Platform | Company Valuation / Market Cap | Pricing (Starting Tier) | Free Tier Limits | Key Highlights & Trade-offs |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Microsoft SQL Server / Azure SQL](https://www.microsoft.com/sql-server)** | ~$3.1 Trillion (Market Cap) | $0.007/hr (~$5.00/mo) for DTU Basic; or $0.52/vCore-hour serverless ($15,123/core for Enterprise on-prem) | Free tier includes 100,000 vCore seconds/month, 32 GB data storage, and 32 GB backup storage (or Express edition: 10 GB DB, 4 cores free) | T-SQL stored procedures with Azure integration. Best for .NET/Windows teams; per-core production licensing scales steeply. |
+| **[Google Cloud Spanner](https://cloud.google.com/spanner)** | ~$2.1 Trillion (Alphabet Market Cap) | $0.030 per 100 Processing Units (PUs)/hr (~$0.30/node-hr; regional multi-zone ~$1.17/node-hr) | 90-day free trial instance with 10 GiB storage, max 5 databases, and standard edition features | Globally distributed database with GoogleSQL & PostgreSQL dialects. Best for global consistency; trial capped at 90 days. |
+| **[PostgreSQL RDS](https://aws.amazon.com/rds/postgresql/)** | ~$2.0 Trillion (Amazon Market Cap) | $0.017/hr (~$12.41/mo) for db.t3.micro (Single-AZ) | AWS Free Tier: 750 hrs/mo of db.t3.micro + 20 GB storage for 12 months (first year only) | Managed PostgreSQL supporting PL/pgSQL & extensions. Eliminates operational overhead; free tier expires after 12 months. |
+| **[Oracle Cloud Database](https://www.oracle.com/)** | ~$350 Billion (Market Cap) | $0.336/ECPU-hr (License Included) or $0.0807/ECPU-hr (BYOL); min 2 ECPUs | Always Free tier: 2 Autonomous Databases (ATP/ADW) with 20 GB storage each | Deep PL/SQL stored procedure integration. Best for Oracle enterprise migrations; idle free instances subject to reclamation. |
+| **[MySQL HeatWave](https://www.oracle.com/mysql/)** | ~$350 Billion (Oracle Market Cap) | $0.0366/ECPU-hr for MySQL DB System + HeatWave node fees (~$0.0194/GB-hr) | Always Free tier: 5,000 hours and 550 GB storage for single HeatWave node instance | MySQL with SQL/PSM and analytics acceleration. Free tier restricted to single node and latest version without HA. |
+| **[SAP HANA Cloud](https://www.sap.com/products/hana.html)** | ~$260 Billion (Market Cap) | €0.75 per Capacity Unit (CU)/mo (~€0.0010/CU-hr; compute instances sized via CUs) | Free tier: 1 instance with 16 GB memory, 80 GB storage, and 1 vCPU (stops nightly; 30-day trial extendable up to 90 days) | In-memory database with SQLScript stored procedures. Tailored for SAP enterprises; premium consumption pricing. |
+| **[IBM Db2 on Cloud](https://www.ibm.com/products/db2)** | ~$215 Billion (Market Cap) | $99/mo for Standard Plan (includes 2 vCPUs, 8 GB RAM, and initial storage) | Lite Plan: Perpetually free with 200 MB data storage and max 5 concurrent connections | Db2 engine with SQL PL stored procedures. Lite tier is sandbox-only; production environments require paid Standard/Enterprise tier. |
+| **[Snowflake Stored Procedures](https://www.snowflake.com/)** | ~$55–$75 Billion (Market Cap) | $2.00 per credit for Standard Edition (on-demand compute) | 30-day free trial with $400 in usage credits (no perpetual free tier) | Server-side procedural logic in JavaScript, Python, Java, and Scala. Compute costs accrue per credit execution. |
+| **[CockroachDB](https://www.cockroachlabs.com/)** | ~$5 Billion (Valuation) | $0.092–$0.18 per vCPU-hr (Standard tier) or $0.50/GiB additional storage | Free tier (Basic / Serverless): 50 Million Request Units (RUs) and 10 GiB storage free per month | Distributed SQL with PL/pgSQL support (v25+). Ideal for horizontal scale; commercial self-hosting subject to license restrictions. |
+| **[SingleStore Helios](https://www.singlestore.com/)** | ~$1.3 Billion (Valuation) | $0.99/hr for Standard Starter Workspace | Free Starter Shared Workspace: 1 GB compressed storage (~4 GB uncompressed data) for evaluation | Distributed SQL and real-time analytics with stored procedures. Free tier runs on shared infrastructure for non-production use. |
 
 ## Open-Source GitHub Projects
 
