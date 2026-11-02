@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-aadge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Database-Stored-Procedures/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Database-Stored-Procedures?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Database-Stored-Procedures/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Database-Stored-Procedures?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Database-Stored-Procedures/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Database-Stored-Procedures?style=social" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Database-Stored-Procedures/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -73,10 +73,10 @@ The competitive landscape is **moderately concentrated among hyperscale cloud pr
 
 ## 🛠️ Open-Source Database Engines (Ranked by Stars)
 
-All open-source repositories below are ranked in descending order by GitHub stargazers. Click any star badge to view real-time stargazers.
+All open-source repositories below are ranked in descending order by GitHub stargazers. Click any Stars_Badge to view real-time stargazers.
 
 ### 1. TiDB
-[![GitHub stars](https://img.shields.io/github/stars/pingcap/tidb?style=social&color=white)](https://github.com/pingcap/tidb/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/pingcap/tidb?style=social&color=white)](https://github.com/pingcap/tidb/stargazers)
 - **Repository**: [pingcap/tidb](https://github.com/pingcap/tidb) 🌐
 - **License**: Apache-2.0 📜
 - **Primary Dialect**: MySQL Protocol / SQL/PSM Compatible 🐬
@@ -84,7 +84,7 @@ All open-source repositories below are ranked in descending order by GitHub star
 - **Best For**: Massive horizontal scaling with existing MySQL application compatibility.
 
 ### 2. CockroachDB
-[![GitHub stars](https://img.shields.io/github/stars/cockroachdb/cockroach?style=social&color=white)](https://github.com/cockroachdb/cockroach/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/cockroachdb/cockroach?style=social&color=white)](https://github.com/cockroachdb/cockroach/stargazers)
 - **Repository**: [cockroachdb/cockroach](https://github.com/cockroachdb/cockroach) 🌐
 - **License**: BSL 1.1 / CCL 📜
 - **Primary Dialect**: PostgreSQL Wire / PL/pgSQL Dialect 🐘
@@ -92,7 +92,7 @@ All open-source repositories below are ranked in descending order by GitHub star
 - **Best For**: Multi-region resilience, geo-partitioning, and horizontally scalable procedural SQL.
 
 ### 3. PostgreSQL
-[![GitHub stars](https://img.shields.io/github/stars/postgres/postgres?style=social&color=white)](https://github.com/postgres/postgres/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/postgres/postgres?style=social&color=white)](https://github.com/postgres/postgres/stargazers)
 - **Repository**: [postgres/postgres](https://github.com/postgres/postgres) 🌐
 - **License**: PostgreSQL License (Open Source) 📜
 - **Primary Dialect**: PL/pgSQL, PL/Python, PL/Perl, PL/Tcl, PL/V8 🐘
@@ -100,7 +100,7 @@ All open-source repositories below are ranked in descending order by GitHub star
 - **Best For**: Advanced enterprise transactional systems, complex computational routines inside the database, and extensible multi-language server-side logic.
 
 ### 4. Citus Data
-[![GitHub stars](https://img.shields.io/github/stars/citusdata/citus?style=social&color=white)](https://github.com/citusdata/citus/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/citusdata/citus?style=social&color=white)](https://github.com/citusdata/citus/stargazers)
 - **Repository**: [citusdata/citus](https://github.com/citusdata/citus) 🌐
 - **License**: AGPL-3.0 / Apache-2.0 (Extensions) 📜
 - **Primary Dialect**: PostgreSQL PL/pgSQL Extension 🐘
@@ -108,7 +108,7 @@ All open-source repositories below are ranked in descending order by GitHub star
 - **Best For**: Scaling out multi-tenant applications and analytical workloads while preserving full PostgreSQL PL/pgSQL compatibility.
 
 ### 5. MySQL
-[![GitHub stars](https://img.shields.io/github/stars/mysql/mysql-server?style=social&color=white)](https://github.com/mysql/mysql-server/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/mysql/mysql-server?style=social&color=white)](https://github.com/mysql/mysql-server/stargazers)
 - **Repository**: [mysql/mysql-server](https://github.com/mysql/mysql-server) 🌐
 - **License**: GPL v2 (Dual Licensed) 📜
 - **Primary Dialect**: SQL/PSM (Persistent Stored Modules) 🐬
@@ -116,7 +116,7 @@ All open-source repositories below are ranked in descending order by GitHub star
 - **Best For**: Universal web application architectures, LAMP stacks, and standard SQL/PSM procedural pipelines.
 
 ### 6. YugabyteDB
-[![GitHub stars](https://img.shields.io/github/stars/yugabyte/yugabyte-db?style=social&color=white)](https://github.com/yugabyte/yugabyte-db/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/yugabyte/yugabyte-db?style=social&color=white)](https://github.com/yugabyte/yugabyte-db/stargazers)
 - **Repository**: [yugabyte/yugabyte-db](https://github.com/yugabyte/yugabyte-db) 🌐
 - **License**: Apache-2.0 📜
 - **Primary Dialect**: PostgreSQL-Compatible PL/pgSQL (YSQL) 🐘
@@ -124,7 +124,7 @@ All open-source repositories below are ranked in descending order by GitHub star
 - **Best For**: Cloud-native zero-downtime operations requiring complete PostgreSQL PL/pgSQL semantic fidelity.
 
 ### 7. MariaDB Server
-[![GitHub stars](https://img.shields.io/github/stars/MariaDB/server?style=social&color=white)](https://github.com/MariaDB/server/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/MariaDB/server?style=social&color=white)](https://github.com/MariaDB/server/stargazers)
 - **Repository**: [MariaDB/server](https://github.com/MariaDB/server) 🌐
 - **License**: GPL v2 📜
 - **Primary Dialect**: SQL/PSM &amp; Oracle PL/SQL Compatibility (`sql_mode=ORACLE`) 🦭
@@ -132,7 +132,7 @@ All open-source repositories below are ranked in descending order by GitHub star
 - **Best For**: Migrations from Oracle databases seeking an open-source landing zone without rewriting procedural packages.
 
 ### 8. H2 Database Engine
-[![GitHub stars](https://img.shields.io/github/stars/h2database/h2database?style=social&color=white)](https://github.com/h2database/h2database/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/h2database/h2database?style=social&color=white)](https://github.com/h2database/h2database/stargazers)
 - **Repository**: [h2database/h2database](https://github.com/h2database/h2database) 🌐
 - **License**: MPL 2.0 / EPL 1.0 📜
 - **Primary Dialect**: Java-Based Stored Procedures &amp; Functions ☕
@@ -140,7 +140,7 @@ All open-source repositories below are ranked in descending order by GitHub star
 - **Best For**: Java / JVM embedded applications, rapid integration testing, and in-memory procedural processing.
 
 ### 9. OrioleDB
-[![GitHub stars](https://img.shields.io/github/stars/orioledb/orioledb?style=social&color=white)](https://github.com/orioledb/orioledb/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/orioledb/orioledb?style=social&color=white)](https://github.com/orioledb/orioledb/stargazers)
 - **Repository**: [orioledb/orioledb](https://github.com/orioledb/orioledb) 🌐
 - **License**: PostgreSQL License 📜
 - **Primary Dialect**: PostgreSQL PL/pgSQL 🦅
@@ -148,7 +148,7 @@ All open-source repositories below are ranked in descending order by GitHub star
 - **Best For**: High-throughput PostgreSQL installations demanding maximum hardware utilization for intensive stored procedure execution.
 
 ### 10. Firebird RDBMS
-[![GitHub stars](https://img.shields.io/github/stars/firebirdsql/firebird?style=social&color=white)](https://github.com/firebirdsql/firebird/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/firebirdsql/firebird?style=social&color=white)](https://github.com/firebirdsql/firebird/stargazers)
 - **Repository**: [firebirdsql/firebird](https://github.com/firebirdsql/firebird) 🌐
 - **License**: IDPL / IPL 📜
 - **Primary Dialect**: PSQL (Procedural SQL) 🔥
